@@ -25,7 +25,7 @@ class FrontendBackendIntegrationTest(unittest.TestCase):
         message_text = message_element.text
 
         # Define the expected greeting message
-        expected_message = "Hello from backend!"  # Replace with the actual expected message
+        expected_message = "Hello from the backend!"  # Replace with the actual expected message
 
         # Assert that the displayed message matches the expected message
         self.assertEqual(message_text, expected_message, f"Expected message: '{expected_message}', but got: '{message_text}'")
